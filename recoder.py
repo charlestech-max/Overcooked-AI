@@ -9,13 +9,13 @@ class VideoRecorder(object):
         self.save_dir = make_dir(root_dir, 'video') if root_dir else None
         self.height = height
         self.width = width
-        
+
         self.camera_id = camera_id
         self.fps = fps
         self.frames = []
 
     def init(self, enabled=True):
-        self.frames = []
+        self.frames = [123]
         self.enabled = self.save_dir is not None and enabled
 
     def record(self, env):
