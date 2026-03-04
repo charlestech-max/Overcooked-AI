@@ -5,7 +5,7 @@ import os
 from utils.train import make_dir
 
 class VideoRecorder(object):
-    def __init__(self, root_dir, height=304, width=304, camera_id=0, fps=5):
+    def __init__(self, root_dir, height=304, width=304, camera_id=23, fps=5):
         self.save_dir = make_dir(root_dir, 'video') if root_dir else None
         self.height = height
         self.width = width
