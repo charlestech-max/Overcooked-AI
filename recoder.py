@@ -9,6 +9,7 @@ class VideoRecorder(object):
         self.save_dir = make_dir(root_dir, 'video') if root_dir else None
         self.height = height
         self.width = width
+        
         self.camera_id = camera_id
         self.fps = fps
         self.frames = []
