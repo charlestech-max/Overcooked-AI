@@ -8,4 +8,4 @@ def get_agent_types(env) -> [str]:
                 types.append('ally')
         else:
             types.append('ally')
-    return types
+    return types

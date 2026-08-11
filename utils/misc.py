@@ -89,4 +89,4 @@ def gumbel_softmax(logits, temperature=1.0, hard=False):
     if hard:
         y_hard = onehot_from_logits(y)
         y = (y_hard - y).detach() + y
-    return y
+    return y
