@@ -625,4 +625,4 @@ class Overcooked(gym.Env):
                 "other_agent_env_idx": 1 - self.agent_idx}
 
     def render(self, mode="human", close=False):
-        pass
+        pass
