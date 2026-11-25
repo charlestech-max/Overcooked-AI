@@ -2511,4 +2511,4 @@ class OvercookedGridworld(object):
     #             if min_dist_to_s_old > min_dist_to_s_new:
     #                 distance_based_shaped_reward += self.reward_shaping_params["SOUP_DISTANCE_REW"] * (1 - min(min_dist_to_s_new / max_dist, 1))
     #
-    #     return distance_based_shaped_reward
+    #     return distance_based_shaped_reward
